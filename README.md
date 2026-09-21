@@ -92,3 +92,24 @@ An interactive, executive-level dashboard.
 * **Database:** DuckDB, SQL
 * **Data Processing & Stats:** Python (Pandas, NumPy, Matplotlib, Seaborn)
 * **Visualization & BI:** Tableau, Microsoft Excel (openpyxl)
+
+## 16. Interview Talking Points
+* **Controlling the Grain:** "I pre-aggregated payment data to the order level before joining to prevent row-multiplication from inflating top-line revenue metrics."
+* **Choosing the Right Metric:** "I chose to report the Median AOV (R$105) rather than the Mean (R$160) because a skewness of 9.37 indicated heavy right-tail outliers were distorting the average."
+* **Causation vs. Correlation:** "While late deliveries are strongly associated with lower review scores (Pearson r = -0.34), I avoided stating they purely *cause* bad reviews, acknowledging that other factors like product quality likely compound the issue."
+
+## 17. Limitations & Next Steps
+* **Limitations:** The dataset terminates in August 2018, leaving Q3 2018 incomplete for YoY analysis. Analysis lacks product margin/COGS data, so profitability is approximated via freight-to-revenue ratios.
+* **Next Steps:** Implement predictive modeling (e.g., Logistic Regression or Random Forest) to predict churn probability based on first-order delivery performance.
+
+## Tableau Dashboard
+
+The interactive Tableau dashboard brings together the project's key business views:
+
+- Executive KPIs
+- Revenue and order trends
+- Geographic delivery performance
+- Customer distribution
+- Top product categories
+
+![Olist E-Commerce Performance Dashboard](reports/tableau/olist_tableau_dashboard.png)
