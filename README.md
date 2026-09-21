@@ -20,14 +20,14 @@ Olist is a Brazilian e-commerce marketplace connecting small businesses to broad
 5. **Efficiency:** Which product categories carry the highest freight burden relative to product revenue?
 
 ## 4. Key Findings
-* **The Retention Crisis:** 97.0% of customers are one-time buyers. The business is heavily dependent on constant new customer acquisition.
+* **Customer Retention:** The analysis shows that 97.0% of customers placed only one qualifying delivered order (90,557 out of 93,358 total unique customers) across the entire dataset. The business is heavily dependent on constant new customer acquisition.
 * **Revenue Concentration:** The top 10% of customers generate 58.3% of total revenue—a steeper concentration than the standard 80/20 rule.
 * **Delivery & Satisfaction:** Late deliveries were associated with a severe drop in average review scores (from 4.29 to 2.57). Specifically, deliveries taking >30 days saw average scores collapse to 2.18.
 * **Category Shifts:** Health & Beauty overtook all other categories to become the #1 revenue generator in 2018 (up 59.5% YoY), while holding favorable freight ratios.
 * **Geographic Risk:** São Paulo (SP), Rio de Janeiro (RJ), and Minas Gerais (MG) account for 64.6% of total revenue, highlighting extreme geographic concentration.
 
 ## 5. KPI Snapshot
-*(Metrics based on delivered orders between Jan 2017 – Aug 2018)*
+*(Revenue and Order volume reflect the Jan 2017 – Aug 2018 analysis window. Retention metrics reflect the lifetime behavior of all unique customers.)*
 * **Total Delivered Revenue:** R$ 15,389,095
 * **Total Delivered Orders:** 96,211
 * **Median Order Value (AOV):** R$ 105.28
