@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (raw CSVs — too large for GitHub, documented via README)
+data/raw/*.csv
+data/cleaned/*.csv
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
